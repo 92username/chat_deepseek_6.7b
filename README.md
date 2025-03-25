@@ -1,4 +1,4 @@
-# Chat DeepSeek 6.7B
+# Chat DeepSeek 6.7B - Local
 
 Este repositório contém um aplicativo web simples que permite interagir com o modelo **DeepSeek 6.7B** através de uma interface de chat. O aplicativo utiliza **Flask** no backend e HTML/JavaScript no frontend para criar uma experiência de chat local.
 
