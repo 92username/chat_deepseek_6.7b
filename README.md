@@ -25,6 +25,7 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 1. **Python 3.12** ou superior instalado.NVIDIA GeForce RTX 3060
 2. **Virtualenv** para criar um ambiente virtual Python.
 3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível, consulte como preparar seu sistema operacional para receber uma LLM em https://github.com/92username/ia_local_install
+4. **GPU NVIDIA RTX 3060** ou superior, com **CUDA**.
 
 ### Passo a Passo
 
@@ -38,10 +39,18 @@ Siga os passos abaixo para configurar e executar o aplicativo:
    ```bash
    python3 -m venv deepseek
    source deepseek/bin/activate  # Linux/Mac
-   deepseek\Scripts\activate    # Windows
    ```
 
-3. **Instale as dependências**:
+3. **Ative e rode o modelo LLM**:
+   Certifique-se de que o modelo **DeepSeek 6.7B - Coder** está configurado corretamente. Para iniciar o servidor do modelo, utilize o comando abaixo em um terminal separado:
+
+   ```bash
+   ollama serve
+   ```
+
+   Isso iniciará o servidor local para o modelo, permitindo que o aplicativo Flask se conecte a ele.
+
+4. **Instale as dependências**:
    ```bash
    pip install -r requirements.txt
    ```
