@@ -51,27 +51,28 @@ Siga os passos abaixo para configurar e executar o aplicativo:
    ![Terminal](img/ollama_serve.png)
 
    Isso iniciará o servidor local para o modelo, permitindo que o aplicativo Flask se conecte a ele.
-   3.1 **Verifique se a LLM está rodando**:  
-      Antes de iniciar o servidor Flask, certifique-se de que o modelo está ativo utilizando o comando abaixo:  
+3.1 **Verifique se a LLM está rodando**:  
+   Antes de iniciar o servidor Flask, certifique-se de que o modelo está ativo utilizando o comando abaixo:  
 
-      ```bash
-      ollama list
-      ```  
+   ```bash
+   ollama list
+   ```  
 
-      ![$ ollama list](img/ollama_list.png)
+   ![$ ollama list](img/ollama_list.png)
 
-      Isso exibirá uma lista de modelos disponíveis e seus status.
-   3.2 **Verifique o endereço do servidor**:  
-       Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor no navegador para verificar se a LLM está rodando:  
+   Isso exibirá uma lista de modelos disponíveis e seus status.
 
-       ```plaintext
-       http://localhost:11434/
-       ```
+3.2 **Verifique o endereço do servidor**:  
+   Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor nonavegador para verificar se a LLM está rodando:  
 
-       Você verá a mensagem **"Ollama is running"**, indicando que o servidor está funcionando corretamente.
+      
+   http://localhost:11434/
+      
 
-       ![Ollama is Running! ](img/ollama_is_running.png)
-       
+   Você verá a mensagem **"Ollama is running"**, indicando que o servidor está funcionando corretamente.
+
+   ![Ollama is Running! ](img/ollama_is_running.png)
+
 4. **Instale as dependências**:
 
    ```bash
