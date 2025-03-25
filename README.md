@@ -69,7 +69,7 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 
 3.2 **Verifique o endereço do servidor**:
 
-   Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor nonavegador para verificar se a LLM está rodando:  
+   Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor no navegador para verificar se a LLM está rodando:  
 
       
    http://localhost:11434/
