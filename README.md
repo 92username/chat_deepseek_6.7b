@@ -24,7 +24,7 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 
 1. **Python 3.12** ou superior instalado.NVIDIA GeForce RTX 3060
 2. **Virtualenv** para criar um ambiente virtual Python.
-3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível, consulte como preparar seu sistema operacional para receber uma LLM em https://github.com/92username/ia_local_install
+3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível, consulte como preparar seu sistema operacional para receber uma LLM em <https://github.com/92username/ia_local_install>
 4. **GPU NVIDIA RTX 3060** ou superior, com **CUDA**.
 
 ### Passo a Passo
@@ -70,11 +70,9 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 3.2 **Verifique o endereço do servidor**:
 
    Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor no navegador para verificar se a LLM está rodando:  
-
       
-   http://localhost:11434/
-      
-
+   <http://localhost:11434/>
+   
    Você verá a mensagem **"Ollama is running"**, indicando que o servidor está funcionando corretamente.
 
    ![Ollama is Running! ](img/ollama_is_running.png)
