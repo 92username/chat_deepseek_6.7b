@@ -2,20 +2,19 @@
 
 Este repositório contém um aplicativo web simples que permite interagir com o modelo **DeepSeek 6.7B** através de uma interface de chat. O aplicativo utiliza **Flask** no backend e HTML/JavaScript no frontend para criar uma experiência de chat local.
 
+## Hardware
+
+![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) 
+
+- **GPU**: NVIDIA GeForce RTX 3060 12GB with CUDA
+
 ## Tecnologias Utilizadas
+
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, CSS, JavaScript
-- **Bibliotecas Python**:
-  - Flask
-  - requests
-  - Blinker
-  - Certifi
-  - Charset Normalizer
-  - Click
-  - Werkzeug
-  - Jinja2
-- **Modelo de IA**: DeepSeek 6.7B (via API local)
+- **Modelo de IA**: DeepSeek 6.7B - Coder (via API local)
 
 ## Como Utilizar
 
@@ -23,52 +22,15 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 
 ### Pré-requisitos
 
-1. **Python 3.12** ou superior instalado.
+1. **Python 3.12** ou superior instalado.NVIDIA GeForce RTX 3060
 2. **Virtualenv** para criar um ambiente virtual Python.
-3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível via a API local em `http://localhost:11434/api/generate`.
+3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível, consulte como preparar seu sistema operacional para receber uma LLM em https://github.com/92username/ia_local_install
 
 ### Passo a Passo
 
 1. **Clone o repositório**:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd chat_deepseek_6.7b
-
-Collecting workspace information```markdown
-# Chat DeepSeek 6.7B
-
-Este repositório contém um aplicativo web simples que permite interagir com o modelo **DeepSeek 6.7B** através de uma interface de chat. O aplicativo utiliza **Flask** no backend e HTML/JavaScript no frontend para criar uma experiência de chat local.
-
-## Tecnologias Utilizadas
-
-- **Backend**: Flask (Python)
-- **Frontend**: HTML, CSS, JavaScript
-- **Bibliotecas Python**:
-  - Flask
-  - requests
-  - Blinker
-  - Certifi
-  - Charset Normalizer
-  - Click
-  - Werkzeug
-  - Jinja2
-- **Modelo de IA**: DeepSeek 6.7B (via API local)
-
-## Como Utilizar
-
-Siga os passos abaixo para configurar e executar o aplicativo:
-
-### Pré-requisitos
-
-1. **Python 3.12** ou superior instalado.
-2. **Virtualenv** para criar um ambiente virtual Python.
-3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível via a API local em `http://localhost:11434/api/generate`.
-
-### Passo a Passo
-
-1. **Clone o repositório**:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/92username/chat_deepseek_6.7b
    cd chat_deepseek_6.7b
    ```
 
@@ -83,10 +45,7 @@ Siga os passos abaixo para configurar e executar o aplicativo:
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Configure o modelo DeepSeek**:
-   Certifique-se de que o modelo **DeepSeek 6.7B** está rodando localmente e acessível na URL `http://localhost:11434/api/generate`.
-
+   
 5. **Inicie o servidor Flask**:
    ```bash
    python app.py
@@ -95,13 +54,6 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 6. **Acesse o aplicativo**:
    Abra o navegador e vá para `http://localhost:5000`.
 
-### Como Usar o Chat
-
-1. Digite sua mensagem no campo de entrada.
-2. Clique no botão "Enviar" ou pressione "Enter".
-3. A resposta do modelo será exibida no chat.
-
 ## Licença
 
 Este projeto está licenciado sob a **GNU General Public License v3.0**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-```
