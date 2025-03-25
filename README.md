@@ -30,18 +30,21 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 ### Passo a Passo
 
 1. **Clone o repositório**:
+
    ```bash
    git clone https://github.com/92username/chat_deepseek_6.7b
    cd chat_deepseek_6.7b
    ```
 
 2. **Crie e ative o ambiente virtual**:
+
    ```bash
    python3 -m venv deepseek
    source deepseek/bin/activate  # Linux/Mac
    ```
 
 3. **Ative e rode o modelo LLM**:
+
    Certifique-se de que o modelo **DeepSeek 6.7B - Coder** está configurado corretamente. Para iniciar o servidor do modelo, utilize o comando abaixo em um terminal separado:
 
    ```bash
@@ -51,7 +54,9 @@ Siga os passos abaixo para configurar e executar o aplicativo:
    ![Terminal](img/ollama_serve.png)
 
    Isso iniciará o servidor local para o modelo, permitindo que o aplicativo Flask se conecte a ele.
-3.1 **Verifique se a LLM está rodando**:  
+
+3.1 **Verifique se a LLM está rodando**:
+
    Antes de iniciar o servidor Flask, certifique-se de que o modelo está ativo utilizando o comando abaixo:  
 
    ```bash
@@ -62,7 +67,8 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 
    Isso exibirá uma lista de modelos disponíveis e seus status.
 
-3.2 **Verifique o endereço do servidor**:  
+3.2 **Verifique o endereço do servidor**:
+
    Após confirmar que o modelo está ativo, você pode acessar o endereço do servidor nonavegador para verificar se a LLM está rodando:  
 
       
