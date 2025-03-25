@@ -1,5 +1,7 @@
 # Chat DeepSeek 6.7B - Local
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/de5ec8c7cf1a41ff8925a2ee5f9ee8cd)](https://app.codacy.com/gh/92username/chat_deepseek_6.7b?utm_source=github.com&utm_medium=referral&utm_content=92username/chat_deepseek_6.7b&utm_campaign=Badge_Grade)
+
 Este repositório contém um aplicativo web simples que permite interagir com o modelo **DeepSeek 6.7B** através de uma interface de chat. O aplicativo utiliza **Flask** no backend e HTML/JavaScript no frontend para criar uma experiência de chat local.
 
 ## Hardware
