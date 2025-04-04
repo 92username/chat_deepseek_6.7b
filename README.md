@@ -24,7 +24,7 @@ Siga os passos abaixo para configurar e executar o aplicativo:
 
 ### Pré-requisitos
 
-1. **Python 3.12** ou superior instalado.NVIDIA GeForce RTX 3060
+1. **Python 3.12** ou superior instalado.
 2. **Virtualenv** para criar um ambiente virtual Python.
 3. O modelo **DeepSeek 6.7B** deve estar configurado e acessível, consulte como preparar seu sistema operacional para receber uma LLM em <https://github.com/92username/ia_local_install>
 4. **GPU NVIDIA RTX 3060** ou superior, com **CUDA**.
