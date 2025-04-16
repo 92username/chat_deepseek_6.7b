@@ -101,10 +101,32 @@
                 height: 50vh;
             }
         }
+
+        .error-message {
+            background-color: #ff5252;
+            color: #fff;
+            border: 1px solid #b71c1c;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 15px auto;
+            max-width: 800px;
+            width: 90%;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(183,28,28,0.15);
+        }
     </style>
 </head>
 <body>
     <h1>DeepSeek-Coder Chat</h1>
+
+    {% if response %}
+      {% if error %}
+        <div class="error-message">{{ response }}</div>
+      {% else %}
+        <div class="ai-message" style="margin: 15px auto; max-width: 800px; width: 90%;">{{ response }}</div>
+      {% endif %}
+    {% endif %}
 
     <div id="chatbox"></div>
 
